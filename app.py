@@ -13,7 +13,7 @@ def about():
 
 @app.route("/chinese")
 def chinese():
-    return render_template('chinese.html', title='思穎心理診所')
+    return render_template('chinese.html', title='思穎心理診所 | 奧克蘭註冊臨床心理師')
 
 @app.route("/faq")
 def faq():
@@ -21,11 +21,11 @@ def faq():
 
 @app.route("/services")
 def services():
-    return render_template('services.html', title='services')
+    return render_template('services.html', title='Services')
 
 @app.route("/contact")
 def contact():
-    return render_template('contact.html', title='services')
+    return render_template('contact.html', title='Contact')
 
 @app.route("/test")
 def test():
