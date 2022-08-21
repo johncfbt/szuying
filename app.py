@@ -4,12 +4,12 @@ app = Flask(__name__)
 @app.route("/")
 @app.route("/home")
 def home():
-    return render_template('home.html', title='Auckland Registered Clinical Psychologist')
+    return render_template('home.html', title='Auckland Registered Clinical Psychologist | Talk Therapy | Support with Depresion, Anxiety')
 
 
 @app.route("/about")
 def about():
-    return render_template('about.html', title='About')
+    return render_template('about.html', title='Dr. Xavier Chiang Ph.D.')
 
 @app.route("/chinese")
 def chinese():
@@ -21,11 +21,11 @@ def faq():
 
 @app.route("/services")
 def services():
-    return render_template('services.html', title='Services')
+    return render_template('services.html', title='Psychological Therapy, Psychology Supervision and ACC Integrated Services for Sensitive Claims')
 
 @app.route("/contact")
 def contact():
-    return render_template('contact.html', title='Contact')
+    return render_template('contact.html', title='Contact Xavier')
 
 @app.route("/test")
 def test():
