@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route("/")
 @app.route("/home")
 def home():
-    return render_template('home.html', title='Auckland Registered Clinical Psychologist | Talk Therapy | Support with Depresion, Anxiety')
+    return render_template('home.html', title='Auckland Registered Clinical Psychologist | Talk Therapy | Support with Depresion, Anxiety, Obsessie and Compulsive Tendencies, Developmental and Identity Struggles')
 
 
 @app.route("/about")
@@ -13,7 +13,7 @@ def about():
 
 @app.route("/chinese")
 def chinese():
-    return render_template('chinese.html', title='思穎心理診所 | 奧克蘭註冊臨床心理師 | 紐西蘭華人心理醫生，提供焦慮/抑鬱症等的中文心理諮詢師服務')
+    return render_template('chinese.html', title='思穎心理診所 | 奧克蘭註冊臨床心理師 | 紐西蘭華人心理醫生，提供焦慮/抑鬱症等的中文心理諮詢服務')
 
 @app.route("/faq")
 def faq():
